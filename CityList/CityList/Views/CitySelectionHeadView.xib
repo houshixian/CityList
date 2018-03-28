@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="A2H-dw-t6i" customClass="CitySelectionHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前城市:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4V-Bv-Cw5">
+                    <rect key="frame" x="15" y="15" width="70" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8y-jF-XSX">
+                    <rect key="frame" x="85" y="8" width="49" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="北京市">
+                        <color key="titleColor" red="0.50588235290000005" green="0.40784313729999999" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="LocatCityAction:" destination="A2H-dw-t6i" eventType="touchUpInside" id="cgA-M5-F6l"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="F8y-jF-XSX" firstAttribute="centerY" secondItem="A2H-dw-t6i" secondAttribute="centerY" id="4xX-VT-Wnh"/>
+                <constraint firstItem="F8y-jF-XSX" firstAttribute="leading" secondItem="v4V-Bv-Cw5" secondAttribute="trailing" id="J7J-0C-Vk6"/>
+                <constraint firstItem="v4V-Bv-Cw5" firstAttribute="centerY" secondItem="A2H-dw-t6i" secondAttribute="centerY" id="cbv-bi-L8D"/>
+                <constraint firstItem="v4V-Bv-Cw5" firstAttribute="leading" secondItem="A2H-dw-t6i" secondAttribute="leading" constant="15" id="hu9-8q-u8p"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="LocatCityBtn" destination="F8y-jF-XSX" id="mdi-ZB-muk"/>
+            </connections>
+            <point key="canvasLocation" x="-43" y="-109"/>
+        </view>
+    </objects>
+</document>

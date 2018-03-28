@@ -1,0 +1,56 @@
+[
+  {
+    "pinyin" : "beijingshi",
+    "first_char" : "B",
+    "region" : "010",
+    "id" : "428",
+    "code" : "110100",
+    "schoolnum" : "26",
+    "name" : "北京市"
+  },
+  {
+    "pinyin" : "shanghaishi",
+    "first_char" : "S",
+    "region" : "021",
+    "id" : "430",
+    "code" : "310100",
+    "schoolnum" : "2",
+    "name" : "上海市"
+  },
+  {
+    "pinyin" : "guangzhoushi",
+    "first_char" : "G",
+    "region" : "020",
+    "id" : "178",
+    "code" : "440100",
+    "schoolnum" : "3",
+    "name" : "广州市"
+  },
+  {
+    "pinyin" : "hangzhoushi",
+    "first_char" : "H",
+    "region" : "0571",
+    "id" : "167",
+    "code" : "330100",
+    "schoolnum" : "0",
+    "name" : "杭州市"
+  },
+  {
+    "pinyin" : "tianjinshi",
+    "first_char" : "T",
+    "region" : "022",
+    "id" : "429",
+    "code" : "120100",
+    "schoolnum" : "14",
+    "name" : "天津市"
+  },
+  {
+    "pinyin" : "nanjingshi",
+    "first_char" : "N",
+    "region" : "025",
+    "id" : "137",
+    "code" : "320100",
+    "schoolnum" : "7",
+    "name" : "南京市"
+  }
+]
